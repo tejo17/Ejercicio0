@@ -10,9 +10,6 @@
             Form2.Show()
         Else
             MessageBox.Show("El nombre o la contraseña son invalidos")
-            inputUser.SelectAll()
-            inputPass.SelectAll()
-            inputUser.Focus()
         End If
     End Sub
 End Class
