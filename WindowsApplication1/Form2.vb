@@ -9,6 +9,10 @@
 
     Dim checkCodigo, checkNombre, checkApellido, checkTelefono, checkEmail, checkCurso
 
+    Private Sub logName_TextChanged(sender As Object, e As EventArgs) Handles logName.TextChanged
+
+    End Sub
+
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         logName.Text() = Module1.user
 
